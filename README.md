@@ -4,8 +4,9 @@ opencourses
 Because college doesn't have to be difficult.
 
 
-TODO -  this entire project 
-        clean up readme
+TODO -  this entire project <br>
+        clean up readme<br>
+        change name to openNotes or something like that
 
 tldr; 
   opencourses (final name pending) is a repository dedicated to boiling down university courses into a single wiki page. Each page should contain enough information to ace the final exam for the class, and be presented in a neat, readable format. 
