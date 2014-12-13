@@ -153,6 +153,26 @@ map :: (a -> b) -> [a] -> [b]
 words
 ```
 
+**Example 2**<br>
+
+```
+words
+```
+
+###Types of Haskell expressions
+**Example 1**<br>
+
+```
+[’a’,’b’,’c’]
+Solution. [ Char ]
+```
+
+**Example 2**<br>
+
+```
+words
+```
+
 ##Java
 words go here.
 
