@@ -135,7 +135,7 @@ and = foldr (&&) True
 **Lambda Expressions** or an anonymous function is a function without a name. It is a Lambda abstraction and might look like this: `\x -> x + 1h`<br>
 * **Example:** (todo)<br>
 
-**Evaluation of Haskell expressions**<br>
+###Evaluation of Haskell expressions
 "Be able to simulate `ghci` in your head"<br>
 ##Java
 words go here.
