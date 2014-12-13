@@ -170,7 +170,29 @@ Solution. [ Char ]
 **Example 2**<br>
 
 ```
-words
+(’a’,’b’,’c’)
+Solution. ( Char, Char, Char )
+```
+
+**Example 3**<br>
+
+```
+[ (False,’0’) , (True,’1’) ]
+Solution. [ ( Bool, Char ) ]
+```
+
+**Example 4**<br>
+
+```
+( [False,True] , [’0’,’1’] )
+Solution. ( [ Bool ], [Char] )
+```
+
+**Example 5**<br>
+
+```
+[tail , init, reverse]
+Solution. [ [a] -> [a] ]
 ```
 
 ##Java
