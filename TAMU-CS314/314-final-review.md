@@ -136,7 +136,12 @@ and = foldr (&&) True
 * **Example:** (todo)<br>
 
 ###Evaluation of Haskell expressions
-"Be able to simulate `ghci` in your head"<br>
+**Example 1**<br>
+
+```
+words
+```
+
 ##Java
 words go here.
 
