@@ -160,6 +160,8 @@ words
 ```
 
 ###Types of Haskell expressions
+From the quiz - evaluate the type of each of the following expression.<br>
+
 **Example 1**<br>
 
 ```
