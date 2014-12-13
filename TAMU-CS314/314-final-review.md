@@ -130,6 +130,8 @@ or = foldr (||) False
 and = foldr (&&) True 
 ```
 
+* **Lambda Expressionx** or an anonymous function is a function without a name. It is a Lambda abstraction and might look like this: `\x -> x + 1h`<br>
+
 ##Haskell
 words go here.
 ##Java
