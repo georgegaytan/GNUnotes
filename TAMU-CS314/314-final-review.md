@@ -74,6 +74,8 @@ Final Date: Wednesday, December 17th 8:00 a.m.<br>
  *  A set of disciplines that describes a computer system by specifying its parts and their relations. For example, at a high level, computer architecture may be concerned with how the central processing unit (CPU) acts and how it uses computer memory.
 <br>
 
+
+##Haskell
 **2. Haskell is a lazy pure functional language**<br>
 "What does this mean?"<br>
 * Lazy evaluation
@@ -86,7 +88,7 @@ Final Date: Wednesday, December 17th 8:00 a.m.<br>
 <br>
 
 **3. Given a function definition with more than one argument, know how the curried version can be understood in terms of lambda expressions.**<br>
-* **Currying** is the technique of translating the evaluation of a function that takes multiple arguments (or a tuple of arguments) into evaluating a sequence of functions, each with a single argument.
+**Currying** is the technique of translating the evaluation of a function that takes multiple arguments (or a tuple of arguments) into evaluating a sequence of functions, each with a single argument.
 * Higher-order Functions
   * A function is called higher-order if it takes a function as an argument or returns a function as a result. !["Higher-order function"](./res/higher-order_function.png)
 * Useful because...
@@ -130,10 +132,8 @@ or = foldr (||) False
 and = foldr (&&) True 
 ```
 
-* **Lambda Expressionx** or an anonymous function is a function without a name. It is a Lambda abstraction and might look like this: `\x -> x + 1h`<br>
-
-##Haskell
-words go here.
+**Lambda Expressions** or an anonymous function is a function without a name. It is a Lambda abstraction and might look like this: `\x -> x + 1h`<br>
+* **Example:** (todo)<br>
 ##Java
 words go here.
 
