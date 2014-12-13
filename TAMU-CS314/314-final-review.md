@@ -55,7 +55,7 @@ Final Date: Wednesday, December 17th 8:00 a.m.<br>
 ###Required Knowledge
 **1. Implementing a Programming Language**<br>
 "Implementing a programming language -- each step, how each step is called, and in what order"<br>
-!["The goal is to undo abstraction"](./undo-abstraction.png)
+!["The goal is to undo abstraction"](./res/undo-abstraction.png)
 * Lexer
  * Lexical analysis is the process of converting a sequence of characters into a sequence of tokens, i.e. meaningful character strings. 
 * Parser
@@ -88,38 +88,48 @@ Final Date: Wednesday, December 17th 8:00 a.m.<br>
 **3. Given a function definition with more than one argument, know how the curried version can be understood in terms of lambda expressions.**<br>
 * **Currying** is the technique of translating the evaluation of a function that takes multiple arguments (or a tuple of arguments) into evaluating a sequence of functions, each with a single argument.
 * Higher-order Functions
-  * A function is called higher-order if it takes a function as an argument or returns a function as a result. !["Higher-order function"](./higher-order_function.png)
+  * A function is called higher-order if it takes a function as an argument or returns a function as a result. !["Higher-order function"](./res/higher-order_function.png)
 * Useful because...
  * Common programming idioms can be encoded as functions within the language itself.
  * Domain specific languages can be defined as collections of higher-order functions. For example, higher-order functions for processing lists.
  * Algebraic properties of higher-order functions can be used to reason about programs.<br>
 **Example**: Map function<br>
+
 ```
 map :: (a → b) → [a] → [b]
 ```
+
 The map function can be defined in a particularly simple manner using a list comprehension:<br>
+
 ```
 map f xs = [f x | x ← xs] 
 ```
+
 Alternatively, it can also be defined using recursion:<br>
+
 ```
 map f [] = [] 
 map f (x:xs) = f x : map f xs 
 ```
+
 **Example**: Foldr function<br>
 * A number of functions on lists can be defined using the following simple pattern of recursion:
+
 ```
 f [] = v
 f (x:xs) = x ⊕ f xs
 ```
+
 * f maps the empty list to some value v, and any non-empty list to some function ⊕ applied to its head and f of its tail.
 The higher-order library function foldr (fold right) encapsulates this simple pattern of recursion, with the function ⊕ and the value v as arguments. For example:<br>
+
 ```
 sum = foldr (+) 0
 product = foldr (*) 1
 or = foldr (||) False
 and = foldr (&&) True 
 ```
+
 ##Haskell
 words go here.
 ##Java
