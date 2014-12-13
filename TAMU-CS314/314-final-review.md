@@ -53,7 +53,7 @@ Final Date: Wednesday, December 17th 8:00 a.m.<br>
 
 ----
 ###Required Knowledge
-**1. Implementing a Programming Language**<br>
+**Implementing a Programming Language**<br>
 "Implementing a programming language -- each step, how each step is called, and in what order"<br>
 !["The goal is to undo abstraction"](./res/undo-abstraction.png)
 * Lexer
@@ -76,7 +76,7 @@ Final Date: Wednesday, December 17th 8:00 a.m.<br>
 
 
 ##Haskell
-**2. Haskell is a lazy pure functional language**<br>
+**Haskell is a lazy pure functional language**<br>
 "What does this mean?"<br>
 * Lazy evaluation
  *  An evaluation strategy which delays the evaluation of an expression until its value is needed (non-strict evaluation) and which also avoids repeated evaluations (sharing). The sharing can reduce the running time of certain functions by an exponential factor over other non-strict evaluation strategies, such as call-by-name.
@@ -87,7 +87,7 @@ Final Date: Wednesday, December 17th 8:00 a.m.<br>
  * Algorithms, data structures, or programming languages are called purely functional if they guarantee the (weak) equivalence of call-by-name, call-by-value and call-by-need evaluation strategies, often by excluding destructive modifications (updates) of entities in the program's running environment. According to this restriction, variables are used in a mathematical sense, with identifiers referring to immutable, persistent values.
 <br>
 
-**3. Given a function definition with more than one argument, know how the curried version can be understood in terms of lambda expressions.**<br>
+**Given a function definition with more than one argument, know how the curried version can be understood in terms of lambda expressions.**<br>
 **Currying** is the technique of translating the evaluation of a function that takes multiple arguments (or a tuple of arguments) into evaluating a sequence of functions, each with a single argument.
 * Higher-order Functions
   * A function is called higher-order if it takes a function as an argument or returns a function as a result. !["Higher-order function"](./res/higher-order_function.png)
@@ -134,6 +134,9 @@ and = foldr (&&) True
 
 **Lambda Expressions** or an anonymous function is a function without a name. It is a Lambda abstraction and might look like this: `\x -> x + 1h`<br>
 * **Example:** (todo)<br>
+
+**Evaluation of Haskell expressions**<br>
+"Be able to simulate `ghci` in your head"<br>
 ##Java
 words go here.
 
