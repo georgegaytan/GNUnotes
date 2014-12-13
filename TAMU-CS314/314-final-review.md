@@ -132,6 +132,17 @@ or = foldr (||) False
 and = foldr (&&) True 
 ```
 
+**Review from the quiz:**
+
+```
+foldl :: (a -> b -> a) -> a -> [b] -> a
+foldr :: (a -> b -> b) -> b -> [a] -> b
+filter :: (a -> Bool) -> [a] -> [a]
+all :: (a -> Bool) -> [a] -> Bool
+map :: (a -> b) -> [a] -> [b]
+(.) :: (b -> c) -> (a -> b) -> (a -> c)
+```
+
 **Lambda Expressions** or an anonymous function is a function without a name. It is a Lambda abstraction and might look like this: `\x -> x + 1h`<br>
 * **Example:** (todo)<br>
 
