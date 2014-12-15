@@ -96,6 +96,13 @@ Final Date: Wednesday, December 17th 8:00 a.m.<br>
  * Domain specific languages can be defined as collections of higher-order functions. For example, higher-order functions for processing lists.
  * Algebraic properties of higher-order functions can be used to reason about programs.<br>
 **Example**: add\` function<br>
+
+```
+add`     :: Int -> (Int -> Int)
+add` x y = x + y
+```
+* *add\`* is a function that takes an argument of type *Int*, and returns a result that is a function of type *Int* -> *Int*. The definition itself states that *add\`* takes an integer *x* followed by an integer *y*, and returns the result *x + y*. More precicely, *add\`* takes an integer *x* and returns a function, which in turn takes an integer *y* and returns the result *x + y* 
+
 **Example**: Map function<br>
 
 ```
