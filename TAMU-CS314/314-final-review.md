@@ -95,6 +95,7 @@ Final Date: Wednesday, December 17th 8:00 a.m.<br>
  * Common programming idioms can be encoded as functions within the language itself.
  * Domain specific languages can be defined as collections of higher-order functions. For example, higher-order functions for processing lists.
  * Algebraic properties of higher-order functions can be used to reason about programs.<br>
+**Example**: add\` function<br>
 **Example**: Map function<br>
 
 ```
@@ -135,16 +136,16 @@ and = foldr (&&) True
 **Review from the quiz:**
 
 ```
-foldl :: (a -> b -> a) -> a -> [b] -> a     // applied to a binary operator, a starting value (typically the left-identity of the operator), and a list, reduces the list using the binary operator, from left to right:
-foldr :: (a -> b -> b) -> b -> [a] -> b     // applied to a binary operator, a starting value (typically the right-identity of the operator), and a list, reduces the list using the binary operator, from right to left:
-filter :: (a -> Bool) -> [a] -> [a]         // applied to a predicate and a list, returns the list of those elements that satisfy the predicate
+foldl :: (a -> b -> a) -> a -> [b] -> a     // Applied to a binary operator, a starting value (typically the left-identity of the operator), and a list, reduces the list using the binary operator, from left to right:
+foldr :: (a -> b -> b) -> b -> [a] -> b     // Applied to a binary operator, a starting value (typically the right-identity of the operator), and a list, reduces the list using the binary operator, from right to left:
+filter :: (a -> Bool) -> [a] -> [a]         // Applied to a predicate and a list, returns the list of those elements that satisfy the predicate
 all :: (a -> Bool) -> [a] -> Bool           // Applied to a predicate and a list, all determines if all elements of the list satisfy the predicate
 map :: (a -> b) -> [a] -> [b]               // map f xs is the list obtained by applying f to each element of xs
 (.) :: (b -> c) -> (a -> b) -> (a -> c)
 ```
 
 ```
-"What is the type of foldr and foldl as defined below?"
+"What is the type and definition of foldr and foldl as defined below?"
 
 foldr :: (a → b → b) → b → [a] → b 
 foldr f v [] = v 
