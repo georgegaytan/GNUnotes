@@ -197,6 +197,43 @@ Solution. ( [ Bool ], [Char] )
 Solution. [ [a] -> [a] ]
 ```
 
+From the quiz -  What is the type of each of the following functions?
+
+**Example 6**<br>
+
+```
+pair x y = (x,y)
+Solution. pair :: t -> t1 -> (t, t1)
+```
+
+**Example 7**<br>
+
+```
+Solution. multTen :: Num a => a -> a (Num type class is needed for *.)
+```
+
+**Example 8**<br>
+
+```
+Solution. palindrome :: Eq a => [a] -> Bool (Eq type class is needed for ==.)
+```
+
+**Example 9**<br>
+
+```
+isGreaterThanHalf x y = x * 2 > y
+Solution. isGreaterThanHalf :: (Num a, Ord a) => a -> a -> Bool
+(Num type class is needed for * and Ord for >.)
+```
+
+**Example 10**<br>
+
+```
+f ( : ( , x): ) = x
+Solution. f :: [(t, t1)] -> t1 (See Quiz 1 Solutions for explanation.)
+```
+
+
 ##Java
 words go here.
 
