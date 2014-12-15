@@ -161,6 +161,7 @@ words
 
 ###Types of Haskell expressions
 From the quiz - evaluate the type of each of the following expression.<br>
+(Personal note, review 5, 7, 10)<br>
 
 **Example 1**<br>
 
@@ -191,7 +192,6 @@ Solution. ( [ Bool ], [Char] )
 ```
 
 **Example 5**<br>
-(Review this one)<br>
 
 ```
 [tail , init, reverse]
