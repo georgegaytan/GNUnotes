@@ -143,6 +143,18 @@ map :: (a -> b) -> [a] -> [b]
 (.) :: (b -> c) -> (a -> b) -> (a -> c)
 ```
 
+```
+foldr :: (a → b → b) → b → [a] → b 
+foldr f v [] = v 
+foldr f v (x:xs) = f x (foldr f v xs) 
+    foldr 1 : 2 : 3 : [] => (1 + (2 + (3 + 0)))
+
+foldl :: (a → b → a) → a → [b] → a 
+foldl f v [] = v 
+foldl f v (x:xs) = foldl f (f v x) xs
+    foldl 1 : 2 : 3 : [] => (((0 + 1) + 2) + 3)
+```
+
 **Lambda Expressions** or an anonymous function is a function without a name. It is a Lambda abstraction and might look like this: `\x -> x + 1h`<br>
 * **Example:** (todo)<br>
 
@@ -160,8 +172,8 @@ words
 ```
 
 ###Types of Haskell expressions
-From the quiz - evaluate the type of each of the following expression.<br>
 (Personal note, review 5, 7, 10)<br>
+From the quiz - evaluate the type of each of the following expression.<br>
 
 **Example 1**<br>
 
