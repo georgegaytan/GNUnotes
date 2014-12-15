@@ -210,12 +210,14 @@ Solution. pair :: t -> t1 -> (t, t1)
 **Example 7**<br>
 
 ```
+multTen x = 10 * x
 Solution. multTen :: Num a => a -> a (Num type class is needed for *.)
 ```
 
 **Example 8**<br>
 
 ```
+palindrome xs = reverse xs == xs
 Solution. palindrome :: Eq a => [a] -> Bool (Eq type class is needed for ==.)
 ```
 
