@@ -144,7 +144,7 @@ map :: (a -> b) -> [a] -> [b]               // map f xs is the list obtained by 
 ```
 
 ```
-"What is the type of foldr and foldl?"
+"What is the type of foldr and foldl as defined below?"
 
 foldr :: (a → b → b) → b → [a] → b 
 foldr f v [] = v 
