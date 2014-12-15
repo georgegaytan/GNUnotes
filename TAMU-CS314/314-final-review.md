@@ -225,8 +225,9 @@ isGreaterThanHalf x y = x * 2 > y
 ```
 
 <br>
+>
 >! Solution. isGreaterThanHalf :: (Num a, Ord a) => a -> a -> Bool
-(Num type class is needed for * and Ord for >.)
+> (Num type class is needed for * and Ord for >.)
 
 **Example 10**<br>
 
