@@ -190,7 +190,7 @@ Solution. [ ( Bool, Char ) ]
 Solution. ( [ Bool ], [Char] )
 ```
 
-**Example 5 \* **<br>
+**Example 5 * **<br>
 
 ```
 [tail , init, reverse]
