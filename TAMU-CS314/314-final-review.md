@@ -223,6 +223,7 @@ Solution. palindrome :: Eq a => [a] -> Bool (Eq type class is needed for ==.)
 ```
 isGreaterThanHalf x y = x * 2 > y
 ```
+
 >! Solution. isGreaterThanHalf :: (Num a, Ord a) => a -> a -> Bool
 >! (Num type class is needed for * and Ord for >.)
 
@@ -230,7 +231,7 @@ isGreaterThanHalf x y = x * 2 > y
 
 ```
 f ( : ( , x): ) = x
->! Solution. f :: [(t, t1)] -> t1 (See Quiz 1 Solutions for explanation.)
+Solution. f :: [(t, t1)] -> t1 (See Quiz 1 Solutions for explanation.)
 ```
 
 
